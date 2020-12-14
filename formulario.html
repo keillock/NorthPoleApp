@@ -1,111 +1,80 @@
-<section class="page" data-name="formulario">
+<section class="page" id="formulario_bg" data-name="formulario">
 	
-	<nav class="navbar">
-		<div class="navbar-bg"></div>
-		<div class="navbar-inner">
-			<div class="left">
+	
+			<div class="left cornertop_icon">
 				<a href="#" class="link back"><i class="material-icons">arrow_back</i></a>
 			</div>
-			<div class="title">Formulario</div>
-			<div class="right">
-				<a href="#" class="link panel-open" data-panel="left"><i class="material-icons">menu</i></a>
-			</div>
-		</div>
-	</nav>
+			
 	
-	
-	<section class="page-content">
+	<section class="page-content" id="ssantaform">
 		
-		<div class="block">
-			<div class="list list-productos media-list">
-				<ul>
-					<li>
-						<a href="/info/" class="item-content">
-							<div class="item-media">
-								<img src="img/cafe-capuccino.png">
-							</div>
-							<div class="item-inner">
-								<div class="item-title-row">
-									<h4 class="item-title">Café Cappuccino</h4>
-									<h4 class="item-after">$5.50</h4>
-								</div>
-								<h5 class="item-subtitle">Caliente</h5>
-							</div>
-						  </a>
-					</li>
-					<li>
-						<a href="/home/" class="item-content">
-							<div class="item-media">
-								<img src="img/cafe-espresso.png">
-							</div>
-							<div class="item-inner">
-								<div class="item-title-row">
-									<h4 class="item-title">Café Espresso</h4>
-									<h4 class="item-after">$3.25</h4>
-								</div>
-								<h5 class="item-subtitle">Caliente</h5>
-							</div>
-						  </a>
-					</li>
-					<li>
-						<a href="/home/" class="item-content">
-							<div class="item-media">
-								<img src="img/chai-frappe.jpg">
-							</div>
-							<div class="item-inner">
-								<div class="item-title-row">
-									<h4 class="item-title">Chai Frappe</h4>
-									<h4 class="item-after">$6.50</h4>
-								</div>
-								<h5 class="item-subtitle">Helado</h5>
-							</div>
-						  </a>
-					</li>
-					<li>
-						<a href="/home/" class="item-content">
-							<div class="item-media">
-								<img src="img/caramel-frappe.png">
-							</div>
-							<div class="item-inner">
-								<div class="item-title-row">
-									<h4 class="item-title">Caramel Frappe</h4>
-									<h4 class="item-after">$5.80</h4>
-								</div>
-								<h5 class="item-subtitle">Helado</h5>
-							</div>
-						  </a>
-					</li>
-					<li>
-						<a href="/home/" class="item-content">
-							<div class="item-media">
-								<img src="img/cocoa-cappuccino.jpg">
-							</div>
-							<div class="item-inner">
-								<div class="item-title-row">
-									<h4 class="item-title">Cocoa Cappuccino</h4>
-									<h4 class="item-after">$2.75</h4>
-								</div>
-								<h5 class="item-subtitle">Caliente</h5>
-							</div>
-						  </a>
-					</li>
-					<li>
-						<a href="/home/" class="item-content">
-							<div class="item-media">
-								<img src="img/iced-latte.jpg">
-							</div>
-							<div class="item-inner">
-								<div class="item-title-row">
-									<h4 class="item-title">Iced Latte</h4>
-									<h4 class="item-after">$7.15</h4>
-								</div>
-								<h5 class="item-subtitle">Helado</h5>
-							</div>
-						  </a>
-					</li>
-				</ul>
-			</div>
-		</div>
+		<h2 class="formtitle">Secret Santa Form</h2>
+		<form class="list" id="my-form">
+  <ul>
+    <li>
+      <div class="item-content item-input">
+        <div class="item-inner">
+          <div class="item-title item-label">Name Your Event</div>
+          <div class="item-input-wrap">
+            <input type="text" name="name" placeholder="Your Event">
+          </div>
+        </div>
+      </div>
+    </li>
+	   <li>
+      <div class="item-content item-input">
+        <div class="item-inner">
+          <div class="item-title item-label">Your Name</div>
+          <div class="item-input-wrap">
+            <input type="text" name="name" placeholder="Your name">
+          </div>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="item-content item-input">
+        <div class="item-inner">
+          <div class="item-title item-label">Your E-Mail</div>
+          <div class="item-input-wrap">
+            <input type="email" name="email" placeholder="Your E-mail">
+          </div>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="item-content item-input">
+        <div class="item-inner">
+          <div class="item-title item-label">Select type of party</div>
+          <div class="item-input-wrap">
+            <select name="partytype">
+              <option value="santa" selected>Secret Santa</option>
+              <option value="office">Office Party</option>
+			<option value="office">Birthday Party</option>
+			<option value="office">Pijin</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="item-content">
+        <div class="item-inner">
+          <div class="item-title">Make your Party Public?</div>
+          <div class="item-after">
+            <label class="toggle toggle-init">
+              <input type="checkbox" name="toggle" value="yes"><i class="toggle-icon"></i>
+            </label>
+          </div>
+        </div>
+      </div>
+    </li>
+  </ul>
+</form>
+<div class="block block-strong row">
+  
+  <div class="col"><a class="button fill-form-from-data item-link item-content panel-close" href="/formulario2/">Next</a></div>
+</div>
+		
 		
 		
 	</section>

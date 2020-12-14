@@ -18,6 +18,7 @@ h1,h2,h3,h4,h5,h6{
 	color: var(--color-negro);
 	margin-bottom: 5px;
 	margin-top: 2px;
+	text-align: center;
 	
 }
 
@@ -76,13 +77,69 @@ a{
 	color: var(--color-rojo);
 }
 
+.login-style{
+	background-color:blue;
 
 
+	
+}
+.box-text{
+	background-color:red;
+	border-radius:15px;
+}
+.login-screen-close{
+	color:white;
+	background-color:var(--color-rojo);
+	border-radius:15px;
+	padding:10px 30px;
+}
 
+#formulario_bg{
+	background-color:#a71515;
+}
 
+.formtitle{
+	font-family: 'Montserrat', sans-serif;
+	color:White;
+	margin:5%;
+	text-transform: uppercase;	
+}
+.cornertop_icon{
+	margin:5%;
+}
 
-
-
-
+.boton_add{
+	color:white;
+	text-align:center;
+	font-size:30px;
+	
+}
+.pptitle{
+	color:#a71515;
+	
+}
+.pptext{
+	color:blue;
+}
+.finish_msg{
+	font-family: 'Montserrat', sans-serif;
+	margin:5%;
+	font-size:50px;
+	color:white;
+}
+.finish_pic{
+	width:50%;
+	text-align:center;
+}
+#aboutus_bg{
+	background-color: #a3b7ff;
+	
+}
+.abouttitle{
+	font-family: 'Montserrat', sans-serif;
+	color:White;
+	margin:5%;
+	text-transform: uppercase;	
+}
 
 
